@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Ejercicio 1</title>
+</head>
+<body>
+    <div class="cabecera">
+        <img src="https://sso.unileon.es/themes/unileon-metronic/img/main-title.png" id="img">
+        <h1>Ejercicio 1 de "<a id="usuario">Daniel Flórez Recio</a>"</h1>
+    </div>
+    
+    <div class="abajo">
+        <div class="izquierda" id="fondoIzquierda">
+            <h2>Instrucciones ejercicio 1:</h2>
+            <h4>Debes replicar este ejercicio en tres ficheros:</h4>
+            <ul>
+                <li>Fichero index.html con el codigo HTML, necesario para replicar este mismo contenido</li>
+                <li>Fichero style.css con el código CSS necesario para dar estilo al ejercicio</li>
+                <li>Fichero myscript.js con el código JS necesario para permitir al usuario interactuar con la web</li>
+            </ul>
+            <h4>Además, debes cumplir los siguientes puntos:</h4>
+            <ul>
+                <li>Utiliza GitHub Classroom para depositar el código fuente</li>
+                <li>Modificar el encabezado del ejercicio con tu nombre</li>
+                <li><a id="lineaCambiaColor">El color de esta línea debe cambiar a rojo después de 5 segundos, y debe cambiar el texto a: "Ha cambiado!"</a></li>     
+                <li>Contador de clicks en la imagen: <a id="areaContador">0</a></li>
+            </ul>
+        </div>
+        <div class="derecha" id="fondoDerecha">
+            <h2>Formulario</h2>
+            <table>
+                <tr>
+                    <td>Nombre:<td>
+                    <td><input type="text" id="nombre">->Cambia el nombre del título</td>
+                </tr>
+                <tr>
+                    <td>Fecha de nacimiento:<td>
+                    <td><input type="date" id="fechaNacimiento">->Calcular la edad en el siguiente campo</td>
+                </tr>
+                <tr>
+                    <td>Edad:<td>
+                    <td><input type="text" id="edad">->Campo deshabilitado(no permite modificarlo)</td>
+                </tr>
+                <tr>
+                    <td>Sexo:<td>
+                    <td><input type="radio" name="genero" value="hombre" id="hombre">Hombre<br>
+                    <input type="radio" name="genero" value="mujer" id="mujer">
+                    Mujer ->Cambia el color de fondo azul/rojo del cuadro de la izquierda</td>
+                </tr>
+                <tr>
+                    <td>Conoce HTML5:<td>
+                    <td><input type="checkbox" id="checkbox">->Oculta la imagen si está marcado</td>
+                </tr>
+                <tr>
+                    <td>Color favorito:<td>
+                    <td><input type="color" id="nuevoColorDe">->Cambia el color de fondo del cuadrado de la derecha</td>
+                </tr>
+                <tr>
+                    <td>Foto:<td>
+                    <td><input type="file"></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" id="botonEnv"></td>
+                    <td>->Muestra una alerta con el texto:"Formulario enviado"</td>
+                </tr> 
+            </table>
+        </div>   
+    </div> 
+<script type="text/javascript" src="./myscript.js"></script>    
+</body>
+</html>

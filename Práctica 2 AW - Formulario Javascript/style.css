@@ -1,0 +1,32 @@
+.cabecera{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.izquierda{
+    background-color:#318CE7;
+    color: white;
+    position: fixed;
+    left:0;
+    float:left;
+    width: 50%;
+    height: 100%;
+    font-size: 14pt;
+}
+
+.derecha{
+    background-color: lightgray;
+    position: fixed;
+    right:0;
+    float:right;
+    width: 50%;
+    height: 100%;
+    font-size: 14pt;
+}
+
+input[type=radio]{
+    height: 25px;
+    width: 30px;
+    border-radius: 100%;
+   }
