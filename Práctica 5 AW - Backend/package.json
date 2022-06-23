@@ -1,0 +1,28 @@
+{
+  "name": "aw-practica-backend-dflorr00",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ULE-Informatica/aw-practica-backend-dflorr00.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ULE-Informatica/aw-practica-backend-dflorr00/issues"
+  },
+  "homepage": "https://github.com/ULE-Informatica/aw-practica-backend-dflorr00#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.17.3"
+  }
+}
