@@ -1,0 +1,6 @@
+{
+    "mongodb_uri": "mongodb+srv://sferns08:cicada@cluster0.7u6yr.mongodb.net/TMail?retryWrites=true&w=majority",
+    "SECURE": "0",
+    "TOKEN_KEY": "6adf02a2a3c14501e58743bcf216801d4991fb489fb56bd790df5c44edb34a3d4dc63fc643157b9ea7f366db2557b912fc8c2ac9e0e4969b034339b22df6efe1",
+    "saltRounds": "12"
+}

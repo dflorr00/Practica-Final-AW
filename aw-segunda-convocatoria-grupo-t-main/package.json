@@ -1,0 +1,31 @@
+{
+  "name": "practicafinalaw",
+  "version": "1.0.0",
+  "description": "Aplicación correos",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd backend && node src/server.js",
+    "heroku-postbuild": "cd backend && npm install && cd ../frontend && npm install && npm run build",
+    "server": "cd backend && nodemon ./src/server.js",
+    "client": "cd frontend && npm start",
+    "dev": "concurrently \"npm run server\" \" npm run client\""
+  },
+  "engines": {
+    "node": "16.14.2",
+    "npm": "8.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ULE-Informatica/aw-practica-final-k.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ULE-Informatica/aw-practica-final-k/issues"
+  },
+  "homepage": "https://github.com/ULE-Informatica/aw-practica-final-k#readme",
+  "dependencies": {
+    "concurrently": "^7.1.0",
+    "nodemon": "^2.0.15"
+  }
+}
